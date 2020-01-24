@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+ header,nav,aside,footer{
+     max-width: 900px;
+     margin: 0 auto;
+     text-align: center;
+ }
+header, footer{
+    max-height: 200px;
+    box-sizing: border-box;
+    box-sizing: content-box;
+}
+nav{
+    background-color: crimson;
+}
+header{
+    background-color: aquamarine;
+}
+footer{
+    background-color: blueviolet;
+}
+#caja{
+    max-width: 150px;
+    height: 400px;
+    background-color: chartreuse;
+    float: left;
+}
+#c1{
+    width: 750px;
+    height: 400px;
+    background-color: darkblue;
+    float: left;
+}
+#a1,#a2{
+    max-width: 750px;
+    height: 200px;
+    background-color: darkcyan;
+}
+#a1{background-color: darkolivegreen;}
+#a2{background-color: darkorange;}
